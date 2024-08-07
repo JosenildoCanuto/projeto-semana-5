@@ -15,7 +15,7 @@ function clicked(button) {
         case '-':
         case '+':
             if(firstValue !== ''){
-                operator += button;
+                operator = button;
                 currentValue = 2;
             }
             break;
